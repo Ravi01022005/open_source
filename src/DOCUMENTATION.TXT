@@ -1,0 +1,45 @@
+                                            ATOMIC ARCHITECTURE MODEL
+E-commerce/
+├── public/                # Public assets
+├── src/                   # Source files
+│   ├── assets/            # Images, fonts, etc.
+│   ├── components/        # Atomic Design components
+│   │   ├── atoms/         # Atoms
+│   │   │   ├── Button.js
+│   │   │   ├── Input.js
+│   │   │   ├── Label.js
+│   │   │   ├── Icon.js
+│   │   │   ├── Image.js
+│   │   │   └── Link.js
+│   │   ├── molecules/     # Molecules
+│   │   │   ├── FormField.js
+│   │   │   ├── Navbar.js
+│   │   │   ├── ProductCard.js
+│   │   │   ├── SearchBar.js
+│   │   │   ├── CartItem.js
+│   │   │   └── Footer.js
+│   │   ├── organisms/     # Organisms
+│   │   │   ├── Header.js
+│   │   │   ├── ProductList.js
+│   │   │   ├── ShoppingCart.js
+│   │   │   ├── ProductDetails.js
+│   │   │   └── CheckoutForm.js
+│   │   ├── templates/     # Templates
+│   │   │   ├── HomePageTemplate.js
+│   │   │   ├── ProductPageTemplate.js
+│   │   │   ├── CartPageTemplate.js
+│   │   │   └── CheckoutPageTemplate.js
+│   │   ├── pages/         # Pages
+│   │   │   ├── HomePage.js
+│   │   │   ├── ProductPage.js
+│   │   │   ├── CartPage.js
+│   │   │   └── CheckoutPage.js
+│   ├── utils/             # Utility functions
+│   │   ├── api.js
+│   │   ├── auth.js
+│   │   └── helpers.js
+│   ├── App.js             # Main React component
+│   └── index.js           # Entry point
+├── .gitignore             # Git ignore rules
+├── package.json           # Project dependencies
+└── README.md              # Project documentation
