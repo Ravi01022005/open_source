@@ -43,3 +43,4 @@ E-commerce/
 ├── .gitignore             # Git ignore rules
 ├── package.json           # Project dependencies
 └── README.md              # Project documentation
+here still i don't implement the login pages at all and you need to include the packages like react-router-dom,icons,bootstrap,mui/material,axios and ii always recommended to use VITE
