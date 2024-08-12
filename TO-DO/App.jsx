@@ -8,14 +8,14 @@ import axios from "axios";
 function App() {
   const [data, setData] = useState([]);
   const [temp, setTemp] = useState("");
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);//by using it we can show the total count of job we have done
   const ref=useRef();
    useEffect(() => {
     handler();
   }, []);
 
 const random=(length=10)=>{
-const overall=" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{}|;:',.<>/?";
+const overall=" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 let id=""
 while(true){
   for(let i=0;i<length;i++){
