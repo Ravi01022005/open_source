@@ -8,7 +8,7 @@ import axios from "axios";
 function App() {
   const [data, setData] = useState([]);
   const [temp, setTemp] = useState("");
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   const ref=useRef();
    useEffect(() => {
     handler();
